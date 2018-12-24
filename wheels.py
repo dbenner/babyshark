@@ -22,19 +22,25 @@ def song():
         'babies', 'parents', 'mommy',
     ]
 
-    verbs = ['go', 'go', 'goes']
+    go = ['go']
+    gogo = go + go
+    verbs = gogo
+    verbs.append('goes')
     verbs += verbs
-    verbs += ['go', 'go', 'says']
+    verbs += gogo
+    verbs += 'says'
 
-    def double(word):
-        return f"{word} and {word}"
+    def pair(word1, word2=None):
+        if not word2:
+            word2 = word1
+        return f"{word1} and {word2}"
 
     def triple(word):
         return ', '.join(3 * (word,))
 
     phrases = [
-        double('round'),
-        'up and down',
+        pair('round'),
+        pair('up', 'down'),
         triple('beep'),
         triple('swish'),
         triple('blink'),
