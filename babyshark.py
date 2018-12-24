@@ -1,4 +1,6 @@
-""" Baby Shark Lyrics Generator """
+""" Baby Shark Lyrics Generator
+    Reference: https://www.youtube.com/watch?v=XqZsoesa55w
+"""
 
 doodoo = ' '.join(6 * ('doo',))
 

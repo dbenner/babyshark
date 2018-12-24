@@ -1,6 +1,5 @@
 # babyshark
-Baby Shark lyrics generator
+Collection of lyrics generators for various annoyingly-sticky children's songs.
 
-Inspired by the Pinkfong kids song
+Inspired by the Pinkfong baby shark song
 
-https://www.youtube.com/watch?v=XqZsoesa55w
